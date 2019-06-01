@@ -23,8 +23,8 @@ class App extends Component {
 	getVenues = () => {
 		const endPoint = "https://api.foursquare.com/v2/venues/explore?"
 		const parameters = {
-			client_id: "PMHC2WA1VCBHVYOPPSJ0QSBYTLRF4PNJ04OWVWV0PZJ0QFIR",
-			client_secret: "CULSZZ44YAEBOWBFGPB4BF5ISRXXSNYR0EE3JV3CNE2ZWHV0",
+			client_id: "5WYQILLJPGOVDJ1C3L1J35EG0X0QBG0SU2ZJRLF53PH4JG5A",
+			client_secret: "4J2HHGD4AM2S45JYPFHGT1TTYRGGGTPRIGMGDNHPIE3HV1DC",
 			query: "hotel",
 			near: "Port Said",
 			v: "20182507"
@@ -60,7 +60,7 @@ class App extends Component {
 	}
 	
 	renderMap = () => {
-		this.loadScript("https://maps.googleapis.com/maps/api/js?key=AIzaSyD1DrDBUd6GNL2EIBCxK-K0OjkTny8kbuA&callback=initMap")
+		this.loadScript("https://maps.googleapis.com/maps/api/js?key=AIzaSyAkljbjwkt7T6FT5PxhepW-StzMPz5dq6U&callback=initMap")
 		window.initMap = this.initMap
 	}
 	
